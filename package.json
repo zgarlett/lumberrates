@@ -1,0 +1,23 @@
+{
+  "name": "lumberrates",
+  "version": "1.0.0",
+  "description": "Crawl websites and store lumber data",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"hi\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgarlett/lumberrates.git"
+  },
+  "keywords": [
+    "lumber",
+    "puppeteer"
+  ],
+  "author": "snacpacc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgarlett/lumberrates/issues"
+  },
+  "homepage": "https://github.com/zgarlett/lumberrates#readme"
+}
