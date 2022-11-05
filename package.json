@@ -4,7 +4,9 @@
   "description": "Crawl websites and store lumber data",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"hi\""
+    "test": "echo \"hi\"",
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zgarlett/lumberrates/issues"
   },
-  "homepage": "https://github.com/zgarlett/lumberrates#readme"
+  "homepage": "https://github.com/zgarlett/lumberrates#readme",
+  "dependencies": {
+    "puppeteer": "^19.2.1"
+  }
 }
